@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Koledar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Koledar_jar</output-path>
+    <root id="archive" name="Koledar.jar">
+      <element id="module-output" name="Koledar" />
+    </root>
+  </artifact>
+</component>
