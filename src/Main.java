@@ -137,8 +137,9 @@ public class Main {
             // Check if TextBox date is filled correctly, switch to correct date or back to to first screen
             if (!textBoxDate.getText().trim().isEmpty()&& getYearFromDateString(textBoxDate.getText()) != -1
                 && getMonthFromDateString(textBoxDate.getText()) < 13 && getMonthFromDateString(textBoxDate.getText()) > 0 &&
-                    getYearFromDateString(textBoxDate.getText()) < 0 &&  getDayFromDateString(textBoxDate.getText()) > 0 &&
-                    getDayFromDateString(textBoxDate.getText()) <= Math.getNumDaysInMonth(getMonthFromDateString(textBoxDate.getText()),getYearFromDateString(textBoxDate.getText())))
+                    getYearFromDateString(textBoxDate.getText()) > 0 &&  getDayFromDateString(textBoxDate.getText()) > 0 &&
+                    getDayFromDateString(textBoxDate.getText()) <= Math.getNumDaysInMonth(getMonthFromDateString(textBoxDate.getText()),getYearFromDateString(textBoxDate.getText()))
+                    )
              {
 
                 year = getYearFromDateString(textBoxDate.getText());
